@@ -18,6 +18,13 @@
 
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 [data-icon]:before {
   font-family: "icon-font" !important;
   content: attr(data-icon);
